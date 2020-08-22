@@ -15,32 +15,47 @@
 </head>
 
 <body>
-    <!-- Nav Bar  -->
-    <nav class="navbar navbar-expand-lg navbar-light">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-light bg-light">
         <a class="navbar-brand" href="#">Latitude</a>
         
         <!-- Collapse into Button -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarDropdown" aria-controls="all_links" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         
-        <!-- Navbar Items -->
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        
+        <div class="collapse navbar-collapse" id="all_links">
+        
+            <!-- All Links -->
+            <ul class="nav navbar-nav navbar-right" >
             
-            <!-- Links  to each visualization page -->
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Plots</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Comparison</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Data</a>
-              </li>
-          
-            </ul> 
-          </div>
+                
+                <!-- Drop Down -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
+                    Plots
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Max Temperature</a>
+                    <a class="dropdown-item" href="#">Humidity</a>
+                    <a class="dropdown-item" href="#">Cloudiness</a>
+                    <a class="dropdown-item" href="#">Wind Speed</a>
+                    </div>
+                </li>
+                
+                <!-- Additional Links -->
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Comparison</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Data</a>
+                </li>
+                
+            </ul>
+        
+        </div>
     </nav>
           
 

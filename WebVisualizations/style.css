@@ -1,6 +1,6 @@
 /* Navigation bar */
 .navbar {
-    background-color: white;
+    /* background-color: white; */
 }
 
 /* Navigation Text */
@@ -35,4 +35,11 @@ h1, h2 {
 
 #summary_image{
     float: left;
+}
+#navbar_items{
+    text-align: right;
+} */
+
+.nav { 
+    display: flex; 
 }
