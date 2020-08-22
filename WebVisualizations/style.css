@@ -1,7 +1,9 @@
+/* Navigation bar */
 .navbar {
     background-color: white;
 }
 
+/* Navigation Text */
 .navbar-brand {
     background-color: teal;
     font-size: x-large;
@@ -11,14 +13,26 @@
     color: white;
 }
 
+/* Page Body*/
 body {
     background-color: lightgray;
 }
 
-section {
-    background-color:white;
-}
-
+/* Space break between Navigation Bar and Summary/Visualization Sections */
 .container {
     margin-top:30px;
+}
+
+/* Summary and Visualization Sections*/
+section {
+    background-color:white;
+    /* height: 700px; */
+}
+
+h1, h2 {
+    color: teal;
+}
+
+.col-md-6{
+
 }
