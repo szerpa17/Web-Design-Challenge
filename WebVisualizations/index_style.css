@@ -30,7 +30,7 @@ body {
 /* Summary and Visualization Sections*/
 section {
     background-color:white;
-    height: 600px;
+    /* height: 500px; */
     padding:10%
 }
 
