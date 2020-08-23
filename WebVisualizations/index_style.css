@@ -1,7 +1,7 @@
+/* Home page style sheet */
 /* Navigation bar */
 .navbar {
     background-color: white;
-    /* position:relative; */
 }
 
 /* Navigation Brand*/
@@ -9,10 +9,7 @@
     background-color: teal;
     font-size: x-large;
     font-weight: 700;
-    /* padding-left: 1%;
-    padding-right: 1%; */
     padding:1%;
-    
 }
 
 /* Navigation Brand Text */
@@ -37,21 +34,15 @@ section {
     padding:10%
 }
 
+/* Header styling */
 h1, h2 {
     color: teal;
 }
 
+/* Image in summary section */
 #summary_image{
     float: left;
 }
-#navbar_items{
-    text-align: right;
-} */
-
-.nav { 
-    display: flex; 
-}
-
 
 /* Reactive Styling For Screens Under 793px */
 @media (max-width: 990px) {
