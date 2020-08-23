@@ -4,11 +4,4 @@ import pandas as pd
 transform = pd.read_csv("cities.csv") 
   
 # Save as HTML
-transform.to_html("table.html", table) 
-  
-# # assign it to a  
-# # variable (string) 
-# html_file = a.to_html() 
-
-
-# Need to build for loop in order to assign partitions.
+transform.to_html("table.html", classes=["table", "table-bordered", "table-striped", "table-hover"], index=False) 
