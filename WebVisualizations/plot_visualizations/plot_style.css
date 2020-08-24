@@ -1,4 +1,4 @@
-/* Home page style sheet */
+/* Plot Visualizations Style Sheet */
 /* Navigation bar */
 .navbar {
     background-color: white;
@@ -43,12 +43,7 @@ h1, h2 {
     color: teal;
 }
 
-/* Image in summary section */
-#summary_image{
-    float: left;
-}
-
-/* Visualization images fit effect*/
+/* Image fit effect*/
 .img-fluid {
    max-width:100%;
    height:auto;
