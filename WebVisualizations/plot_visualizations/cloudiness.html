@@ -3,60 +3,155 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light navbar-default py-0 ">
-        <a class="navbar-brand" href="../index.html">Latitude</a>
-        
-        <!-- Collapse into Button -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        
-        
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            
-        
-            <!-- Align right -->
-            <div class="container-fluid navbar-custom">
-                <div class="row">
-                    <div class="ml-auto col-auto"></div>
-                </div>
-            </div>
+    <title>Cloudiness</title>
 
-            <!-- All Links -->
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">            
-                
-                <!-- Drop Down -->
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Plots
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="plot_visualizations/temp.html">Max Temperature</a>
-                        <a class="dropdown-item" href="plot_visualizations/humidity.html">Humidity</a>
-                        <a class="dropdown-item" href="plot_visualizations/cloudiness.html">Cloudiness</a>
-                        <a class="dropdown-item" href="plot_visualizations/wind.html">Wind Speed</a>
-                    </div>
-                </li>
-
-                <!-- Additional Links -->
-                <li class="nav-item">
-                    <a class="nav-link" href="comparison.html">Comparison</a></span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="data.html">Data</a>
-                </li>
-                            
-            </ul>
-                   
-        
-        </div>
-    </nav>
-
-
+ <!-- CSS Stylesheet -->
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     
+ <link rel="stylesheet" href="plot_style.css">
+
+</head>
+
+<body>
+ <!-- Navbar -->
+ <nav class="navbar navbar-expand-lg navbar-light navbar-default py-0">
+     <a class="navbar-brand" href="../index.html">Latitude</a>
+     
+     <!-- Collapse into Button -->
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+       </button>
+     
+     
+       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+         
+     
+         <!-- Align right -->
+         <div class="container-fluid navbar-custom">
+             <div class="row">
+                 <div class="ml-auto col-auto"></div>
+             </div>
+         </div>
+
+         <!-- All Links -->
+         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">            
+             
+             <!-- Drop Down -->
+             <li class="nav-item dropdown">
+                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                 Plots
+                 </a>
+                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                     <a class="dropdown-item" href="temp.html">Max Temperature</a>
+                     <a class="dropdown-item" href="humidity.html">Humidity</a>
+                     <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                     <a class="dropdown-item" href="wind.html">Wind Speed</a>
+                 </div>
+             </li>
+
+             <!-- Additional Links -->
+             <li class="nav-item">
+                 <a class="nav-link" href="../comparison.html">Comparison</a></span></a>
+             </li>
+             <li class="nav-item">
+                 <a class="nav-link" href="../data.html">Data</a>
+             </li>
+                         
+         </ul>
+                
+     
+     </div>
+ </nav>
+
+<!-- Page Partition -->
+<div class="container">     
+
+ <div class="row">
+ 
+     <div class="col-md-8">
+         <!-- Summary Content-->
+         <section class="row">
+             <article>
+                 <!-- Section Title -->
+                 <h1>Cloudiness</h1>
+                 <hr/>
+
+                     <!-- Image -->
+                     <img id="cloudiness"
+                     class="mx-auto d-block"
+                     ref="" 
+                     src="../assets/images/Fig3.png" 
+                     alt="Figure 4"
+                     width="500">
+
+                 
+                     <!-- Content -->
+                     <p> 
+                         Text
+                         
+                     </p>
+
+             </article>
+         </section>
+     </div>
+
+         
+         <!-- Side Bar with Preview Images -->
+         <div class="col-md-4">
+             <section>
+                 <article>
+                     <h2>
+                         Visualizations
+                     </h2> <hr/>
+                     
+                         <!-- Images with links -->
+                         <div class="row">
+
+                             <div class="col-md-12">
+                     
+                                 <a href="temp.html"><img id="figure_1"
+                                 src="../assets/images/Fig1.png" 
+                                 class="img-fluid"
+                                 alt="Figure 1"
+                                 width="155"></a>
+
+                                 <a href="humidity.html"><img id="figure_2"
+                                 src="../assets/images/Fig2.png" 
+                                 class="img-fluid"
+                                 alt="Figure 2"
+                                 width="155"></a>
+
+                                 <a href="cloudiness.html"><img id="figure_3"
+                                 src="../assets/images/Fig3.png" 
+                                 class="img-fluid"
+                                 alt="Figure 3"
+                                 width="155"></a>
+                             
+                                 <a href="wind.html"><img id="figure_4"
+                                 src="../assets/images/Fig4.png" 
+                                 class="img-fluid"
+                                 alt="Figure 4"
+                                 width="155"></a>
+                     
+                             </div>
+
+                         </div>
+  
+                 </article>
+
+             </section>
+
+         </div>
+
+     </div>
+
+ </div>
+
+
+ <!-- JS, Popper.js, and jQuery -->
+ <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 </body>
 </html>

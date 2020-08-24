@@ -1,4 +1,4 @@
-/* Data style sheet */
+/* Comparison style sheet */
 /* Navigation bar */
 .navbar {
     background-color: white;
@@ -17,26 +17,38 @@
     color:white;
 }
 
+/* Navigation Brand Text */
+.navbar-brand::selection {
+    color:white;
+}
+
 /* Page Body*/
 body {
     background-color: lightgray;
 }
 
-/* Space break between Navigation Bar and Data Section */
+/* Space break between Navigation Bar and Summary/Visualization Sections */
 .container {
     margin-top:30px;
 }
 
-/* Data Section */
+/* Summary and Visualization Sections*/
 section {
     background-color:white;
-    padding: 1%;
+    padding:5%
 }
 
 /* Header styling */
-h2 {
+h1, h2 {
     color: teal;
 }
+
+
+/* Visualization section image borders */
+#figure_1:hover, #figure_2:hover, #figure_3:hover, #figure_4:hover { 
+    border: 3px solid teal; 
+  } 
+
 
 /* Reactive Styling For Screens Under 793px */
 @media (max-width: 990px) {
@@ -45,5 +57,10 @@ h2 {
     .navbar {
         background-color: teal;
     }
+
+    body {
+        background-color: white;
+    }
+
 }
     
