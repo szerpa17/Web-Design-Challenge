@@ -1,0 +1,49 @@
+/* Data style sheet */
+/* Navigation bar */
+.navbar {
+    background-color: white;
+}
+
+/* Navigation Brand*/
+.navbar-brand {
+    background-color: teal;
+    font-size: x-large;
+    font-weight: 700;
+    padding:1%;
+}
+
+/* Navigation Brand Text */
+.navbar-default .navbar-brand {
+    color:white;
+}
+
+/* Page Body*/
+body {
+    background-color: lightgray;
+}
+
+/* Space break between Navigation Bar and Data Section */
+.container {
+    margin-top:30px;
+}
+
+/* Data Section */
+section {
+    background-color:white;
+    padding: 1%;
+}
+
+/* Header styling */
+h2 {
+    color: teal;
+}
+
+/* Reactive Styling For Screens Under 793px */
+@media (max-width: 990px) {
+    
+    /* Changes the navbar color */
+    .navbar {
+        background-color: teal;
+    }
+}
+    

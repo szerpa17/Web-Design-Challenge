@@ -2,6 +2,12 @@
 
 The finalized dashboard may be viewed at [https://szerpa17.github.io/Web-Design-Challenge/](https://szerpa17.github.io/Web-Design-Challenge/).
 
+
+## Tools
+* HTML
+* CSS
+* Bootstrap
+
 ## Latitude - Latitude Analysis Dashboard 
 
 Created individual pages for each weather scatter plot and a means by which users can navigate between them. These pages will contain the visualizations and their corresponding explanations. Users will also have access to a landing page, a page where they can see a comparison of all of the plots, and another page where they can view the data used to build the plots.
